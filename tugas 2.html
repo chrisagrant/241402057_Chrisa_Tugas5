@@ -1,0 +1,63 @@
+<h1>Formulir Data Mahasiswa</h1>
+        <form action="https://bit.ly/4eoPbRQ" method="GET">
+            <table cellpadding="8">
+                <tr>
+                    <td><label for="nama">Nama</label></td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;&nbsp;<input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required></td>
+                </tr>
+                <tr>
+                    <td><label for="pw">Password</label></td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;&nbsp;<input type="password" id="pw" name="password" placeholder="Masukkan kata sandi" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;&nbsp;<input type="email" id="email" name="email" placeholder="Masukkan email Anda" required></td>
+                </tr>
+                <tr>
+                    <td><label for="hobby">Hobby</label></td>
+                    <td>:</td>
+                    <td> &nbsp;
+                        <input type="checkbox" id="hobby1" name="hobby1" value="reading">
+                        <label for="hobby1">Reading</label>
+                        <input type="checkbox" id="hobby2" name="hobby2" value="writing">
+                        <label for="hobby2">writing</label>
+                        <input type="checkbox" id="hobby3" name="hobby3" value="gaming">
+                        <label for="hobby3">gaming</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="sex">Jenis Kelamin</label></td>
+                    <td>:</td>
+                    <td>&nbsp;
+                        <input type="radio" id="sex1" name="sex" value="male">
+                        <label for="sex1">Laki-laki</label>
+                        <input type="radio" id="sex2" name="sex" value="female">
+                        <label for="sex2">Perempuan</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="major">Jurusan</label></td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;
+                        <select name="major" id="major">
+                            <option value="">--Pilih jurusan Anda--</option>
+                            <option value="it">Teknologi Informasi</option>
+                            <option value="cs">Ilmu Komputer</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" style="text-align: center;">
+                        <button type="submit">Reset</button>&nbsp;
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
